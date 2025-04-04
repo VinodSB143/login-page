@@ -1,0 +1,41 @@
+.head{
+    text-align: center;
+    text-decoration: underline;
+    color:green
+}
+
+#but{
+    
+    border-radius:20%;
+    margin-left:20px;
+    background-color:rgb(101, 181, 101);
+    color: black;
+    scale: 1.5;
+    cursor: pointer;
+    
+}
+
+input{
+    margin: 20px 30px;
+}
+
+body{
+    background-color: rgb(223, 220, 216);
+    padding: 30px 30px;
+}
+
+.add{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    justify-content: space-between;
+    
+}
+
+.detail{
+    margin-top: 50px;
+}
+
+.image{
+    box-shadow: 8px 2px 15px rgba(0, 0, 0, 0.5);
+};

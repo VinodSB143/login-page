@@ -1,0 +1,138 @@
+.nav-bar{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 17px 0px;
+    height: 25px
+    
+
+}
+
+.nav-bar > img{
+    width: 140px;
+    height: 29px;
+    padding: 0px 40px;
+    margin-left: 30px;
+    
+    
+}
+
+
+.nav-link-bar{
+
+    list-style-type: none;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+    border-radius: 0.6rem;
+    font-family: Okra, Helvetica, sans-serif;
+    margin-right: 55px;
+    
+}
+
+.nav-link-bar > li{
+    display: inline;
+    padding: 0.8rem
+    
+}
+
+.container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 30px;
+   
+    
+
+    
+    
+    
+}
+
+.card-img > img{
+    width: 328px;
+    height: 248px;
+    border-radius: 16px;
+    object-fit: cover;
+   
+
+}
+
+
+
+.card-rest-rating {
+
+  display: grid;
+  grid-template-columns: 250px 0px 0px;
+  position: relative;
+  bottom: 15px;
+  align-items: center;
+  column-gap: 30px;
+
+}
+
+.card-rest-rating > h4{
+        width: 102.03px;
+        height: 20.4px;
+        font: 14px;
+        color: #1c1c1c;
+        font-family: Okra, Helvetica, sans-serif;
+}
+
+.card-food-price{
+   
+    display: grid;
+    grid-template-columns: 233px 200px;
+    position: absolute;
+    top:30px
+    
+
+}
+
+.card-food-price > p{
+    font-size: inherit;
+    font: 14px;
+    line-height: 1.5;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(105, 105, 105);
+    max-width: 70%;
+    padding: 0px 0px 0.4rem;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.card-rating{
+    background-color: #267e3e;
+    width: 30px;
+    height: 18px;
+    
+    border-radius: 7px;
+    font-size: 14px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: white;
+    padding: 1px 6.5px  ;
+    font-weight: 600;
+    font-size: inherit;
+    
+    
+}
+svg{
+    background-color: #267e3e;
+    
+   width: 8.5px;
+   height: 8.5px; 
+   
+   
+}
+
+
+

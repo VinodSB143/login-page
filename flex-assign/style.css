@@ -1,0 +1,29 @@
+.parent {
+    border: 1.5px solid;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px 10px;
+    gap: 10px;
+    
+}
+
+box {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.child-red {
+    background-color: orangered;
+    font-size: xx-small;
+    padding: 10px 20px;
+
+}
+
+.child-green {
+    background-color: rgb(60, 194, 60);
+    font-size: xx-small;
+    padding: 10px 30px;
+
+}
